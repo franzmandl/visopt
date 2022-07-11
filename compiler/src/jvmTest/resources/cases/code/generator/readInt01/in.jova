@@ -1,0 +1,20 @@
+class Example {
+    public int method1() {
+        return readInt();
+    }
+
+    public int method2() {
+        return readInt();
+    }
+}
+
+class Main {
+    public int main() {
+        Example instance;
+        instance = new Example;
+        print(instance.method1());
+        print(instance.method1());
+        print(instance.method2());
+        return 0;
+    }
+}

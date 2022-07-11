@@ -1,0 +1,14 @@
+@import '../../scss/variables';
+
+.svg-arrow {
+    .svg-arrow-head {
+        fill: $cfg-line-color;
+    }
+
+    .svg-arrow-path {
+        fill: none;
+        marker-end: url(#svg-arrow-marker);
+        stroke: $cfg-line-color;
+        stroke-width: 2;
+    }
+}

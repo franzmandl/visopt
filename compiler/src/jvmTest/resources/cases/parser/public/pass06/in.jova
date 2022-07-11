@@ -1,0 +1,14 @@
+class DontCry 
+{
+
+
+
+
+}
+
+
+class Cry
+{
+  private int num_tears;
+
+}

@@ -1,0 +1,14 @@
+class Test{
+
+}
+
+class Main {
+
+  public int main() {
+    if("any dumb condition"){
+      
+    }
+    return 0;
+  }
+
+}

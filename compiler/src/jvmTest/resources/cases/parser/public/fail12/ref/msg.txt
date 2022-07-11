@@ -1,0 +1,5 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 1
+  #1: line 3:3 mismatched input 'int' expecting {'}', AMOD, CLASS_TYPE}

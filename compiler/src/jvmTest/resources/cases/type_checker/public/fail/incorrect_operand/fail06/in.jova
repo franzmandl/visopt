@@ -1,0 +1,16 @@
+class Test{
+
+}
+
+class Main {
+
+  public int main() {
+    int bb;
+    int result;
+    Test t;
+    result = 1;
+    bb = result / t;
+    return 0;
+  }
+
+}

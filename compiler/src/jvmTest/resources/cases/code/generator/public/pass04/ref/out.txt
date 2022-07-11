@@ -1,0 +1,2 @@
+Hi, I am boolean: true
+Hi boolean, I am number: 42

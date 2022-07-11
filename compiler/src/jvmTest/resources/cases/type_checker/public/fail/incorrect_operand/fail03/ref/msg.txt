@@ -1,0 +1,8 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 0
+
+Number of type errors: 2
+  #1: 'int' does not have field 'x' (line 16)
+  #2: Cannot invoke method 'foofoo()' on type 'int' (line 17)

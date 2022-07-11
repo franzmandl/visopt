@@ -1,0 +1,10 @@
+class Cls {
+
+  public int func(int x, bool y) {
+    return 42;
+  }
+
+    public int func(int myint, bool x) {
+    return 42;
+  }
+}

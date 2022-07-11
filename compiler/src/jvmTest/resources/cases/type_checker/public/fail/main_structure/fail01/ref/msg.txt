@@ -1,0 +1,7 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 0
+
+Number of type errors: 1
+  #1: Main cannot be used as a type (line 8)

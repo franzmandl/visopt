@@ -1,0 +1,12 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 8
+  #1: line 3:24 mismatched input 'A' expecting ID
+  #2: line 3:25 missing ID at ','
+  #3: line 3:27 mismatched input 'String' expecting ID
+  #4: line 3:34 mismatched input 'B' expecting ID
+  #5: line 3:35 missing ID at ','
+  #6: line 3:37 mismatched input 'int' expecting ID
+  #7: line 3:41 mismatched input 'C' expecting ID
+  #8: line 3:42 mismatched input ')' expecting ID

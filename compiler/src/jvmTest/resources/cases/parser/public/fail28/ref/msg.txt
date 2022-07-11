@@ -1,0 +1,5 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 1
+  #1: line 8:12 mismatched input 'this' expecting ID

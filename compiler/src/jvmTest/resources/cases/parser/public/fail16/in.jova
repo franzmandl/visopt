@@ -1,0 +1,19 @@
+class Test
+{  
+  public int getA()
+  {
+    return a;
+  }
+}
+class Main {
+public int main()
+{
+  
+  while(a().x)
+  {
+    b = 42;
+  }
+
+  return b;
+}
+}

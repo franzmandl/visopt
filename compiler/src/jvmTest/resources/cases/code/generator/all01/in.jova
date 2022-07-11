@@ -1,0 +1,128 @@
+class Example {
+    public int publicMember;
+    private String privateMember;
+    
+    public int allOptimizations() {
+        int copy, input, result, two;
+        two = 2;
+        input = 1 * readInt() * 4;
+        copy = input;
+        result = (input + two * 2) + (copy + 4);
+        return result;
+    }
+
+    public int algebraicSimplifications() {
+        int x;
+        x = 183;
+        x = x + 0;
+        x = x - 0;
+        x = x * 1;
+        x = x / 1;
+        return x;
+    }
+
+    public int commonSubexpressionElimination() {
+        int a, b, result;
+        a = 3 * 4 / 2;
+        b = 3 * 4 * 2;
+        result = (a + 10) * (a + 10);
+        return result;
+    }
+
+    public int constantFolding() {
+        int result;
+        result = 2 * 3 + 4;
+        return result;
+    }
+
+    public int constantPropagation() {
+        int i, result;
+        i = 2;
+        result = i * i + i;
+        return result;
+    }
+
+    public int copyPropagation() {
+        int i, copy, result;
+        i = readInt();
+        copy = i;
+        result = copy * copy + copy;
+        return result;
+    }
+
+    public int deadCodeElimination() {
+        int a, b, c;
+        a = 201;
+        b = 302;
+        c = a * 2;
+        b = a + 3;
+        return 0;
+    }
+
+    public int reductionInStrength() {
+        int result;
+        result = 2 * 3 / 4;
+        return result;
+    }
+
+    public int unreachableCodeElimination() {
+        if (true) {
+            print("always true\n");
+        } else {
+            print("unreachable else branch\n");
+        }
+        if (false) {
+            print("always false\n");
+        }
+        while (false) {
+            print("unreachable loop\n");
+        }
+        return 0;
+    }
+
+    public int flowGraph() {
+        int a, b;
+        a = 50;
+        b = 75;
+        if (a < b) {
+            if (a != 0) {
+                print("true\n");
+            }
+        } else {
+            print("false\n");
+        }
+        a = a + 1;
+        while (a > b) {
+            print("while\n");
+        }
+        return 0;
+    }
+}
+
+class Main {
+    public int main() {
+        Example instance;
+        instance = new Example;
+        print(instance.allOptimizations());
+        print("\n");
+        print(instance.algebraicSimplifications());
+        print("\n");
+        print(instance.commonSubexpressionElimination());
+        print("\n");
+        print(instance.constantFolding());
+        print("\n");
+        print(instance.constantPropagation());
+        print("\n");
+        print(instance.copyPropagation());
+        print("\n");
+        print(instance.deadCodeElimination());
+        print("\n");
+        print(instance.reductionInStrength());
+        print("\n");
+        print(instance.flowGraph());
+        print("\n");
+        print(instance.unreachableCodeElimination());
+        print("\n");
+        return 0;
+    }
+}

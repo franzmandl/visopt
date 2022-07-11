@@ -1,0 +1,15 @@
+class Test{
+
+}
+
+class Main {
+
+  public int main() {
+    int number;
+    
+    number = true + 1;
+    
+    return 0;
+  }
+
+}

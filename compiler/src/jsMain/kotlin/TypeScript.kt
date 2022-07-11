@@ -1,0 +1,1 @@
+external interface TypeScript<T>

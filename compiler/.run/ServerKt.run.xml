@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="ServerKt" type="JetRunConfigurationType" nameIsGenerated="true">
+        <envs>
+            <env name="spring_profiles_active" value="development"/>
+        </envs>
+        <option name="MAIN_CLASS_NAME" value="com.franzmandl.compiler.server.ServerKt"/>
+        <module name="compiler.jvmMain"/>
+        <shortenClasspath name="NONE"/>
+        <method v="2">
+            <option name="Make" enabled="true"/>
+        </method>
+    </configuration>
+</component>

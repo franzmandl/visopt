@@ -1,0 +1,3 @@
+class Test5 {
+  private Test5 self,;
+}

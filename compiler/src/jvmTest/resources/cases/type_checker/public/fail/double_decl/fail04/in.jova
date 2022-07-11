@@ -1,0 +1,16 @@
+class Test{
+
+}
+
+class Test{
+  
+}
+
+class Main {
+
+  public int main() {
+
+    return 0;
+  }
+
+}

@@ -1,0 +1,7 @@
+int main(){
+  
+  int 0123abc;
+  int _0123;
+
+  return 0;
+}

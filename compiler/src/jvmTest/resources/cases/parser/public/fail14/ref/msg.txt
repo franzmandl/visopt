@@ -1,0 +1,6 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 2
+  #1: line 12:9 mismatched input ')' expecting {'(', 'new', 'nix', 'this', ADDOP, '!', INT_LIT, BOOL_LIT, ID, STRING_LIT}
+  #2: line 15:3 extraneous input '}' expecting {'(', 'if', 'while', 'return', 'new', 'nix', 'this', ADDOP, '!', INT_LIT, BOOL_LIT, ID, STRING_LIT}

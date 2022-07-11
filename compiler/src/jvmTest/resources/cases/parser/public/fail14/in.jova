@@ -1,0 +1,18 @@
+class Test
+{
+  public int getA()
+  {
+    return a;
+  }
+}
+
+class Main {
+public int main()
+{
+  while()
+  {
+    a = 3;
+  }
+  return b;
+}
+}

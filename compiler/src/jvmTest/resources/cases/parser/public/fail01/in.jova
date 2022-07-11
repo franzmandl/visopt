@@ -1,0 +1,14 @@
+class Main {
+public int main()
+{
+  int a, b, c;
+  String;
+  String blue;
+  
+  a = 12;
+  beer = "blub";
+  c = asdf;
+
+  return a;
+}
+}

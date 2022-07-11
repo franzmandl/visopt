@@ -1,0 +1,28 @@
+class Test5 {
+  public Test5 self;
+  
+  public bool init(Test5 test)
+  {
+    self = test;
+    return true;
+  }
+  
+  
+  public int test5(int a, int b)
+  {
+     return a+b;
+  }
+}
+
+
+class Main
+{
+  public int main(){
+    Test5 test;
+    int ret;
+    
+    test = new Test5;
+    ret = test.init(test);
+    return test.self.self.self.self.self.self.test5;
+  }
+}

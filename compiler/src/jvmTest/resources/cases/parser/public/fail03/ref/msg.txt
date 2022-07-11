@@ -1,0 +1,5 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 1
+  #1: line 5:17 mismatched input 'i' expecting {')', PRIMITIVE_TYPE, CLASS_TYPE}

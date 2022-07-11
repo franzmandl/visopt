@@ -1,0 +1,16 @@
+class Test{
+
+}
+
+class Main {
+
+  public int main() {
+    Test test;
+    int ret;
+    
+    ret = test.notExstingMethod();
+
+    return 0;
+  }
+
+}

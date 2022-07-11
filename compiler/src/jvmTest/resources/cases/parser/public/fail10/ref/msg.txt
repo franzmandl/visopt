@@ -1,0 +1,6 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 2
+  #1: line 3:11 missing ';' at '0'
+  #2: line 3:12 extraneous input '127' expecting ';'

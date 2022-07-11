@@ -1,0 +1,18 @@
+class Test{
+
+  public int callMethod(){
+    int ret;
+    ret = callNotexistingMethod();
+    
+    return 0;
+  }
+}
+
+class Main {
+
+  public int main() {
+    
+    return 0;
+  }
+
+}

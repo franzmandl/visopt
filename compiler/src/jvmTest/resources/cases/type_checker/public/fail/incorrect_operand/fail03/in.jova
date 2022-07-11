@@ -1,0 +1,21 @@
+class Test{
+  public int x;
+  public bool foofoo(){
+    bool ret;
+    ret = true;
+    return ret;
+  }
+}
+
+class Main {
+
+  public int main() {
+    Test t;
+    int b;
+
+    b = b.x;
+    b = b.foofoo();
+    return 0;
+  }
+
+}

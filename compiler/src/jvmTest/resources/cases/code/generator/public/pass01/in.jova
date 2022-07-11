@@ -1,0 +1,34 @@
+class Evaluation{
+  public int init()
+  {
+    return print("Please dont forget to evaluate this course!\n");
+  }
+ 
+  public int setEvalMsg(String new_msg, int course_num)
+  {
+    int ret;
+    ret = print("New evaluation for course ");
+    ret = print(course_num);
+    ret = print("\n");
+    ret = print(new_msg);
+    
+    return 0;
+  }
+}
+
+class Main {
+
+  public int main() {
+    Evaluation eval;
+    int ret;
+    
+    eval = new Evaluation;
+    
+    ret = eval.init();
+    ret = eval.setEvalMsg("This course was so cool, I want to do it again next year!\n", 716077);
+    ret = eval.setEvalMsg("jk. Im glad its over...", 716077);
+    
+    return 0;
+  }
+
+}

@@ -1,0 +1,14 @@
+class Test{
+
+}
+
+class Main {
+
+  public int main() {
+    bool b;
+    
+    b = !"false";
+    return 0;
+  }
+
+}

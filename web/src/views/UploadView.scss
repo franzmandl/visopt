@@ -1,0 +1,11 @@
+@import '../scss/variables';
+
+.upload-view {
+    grid-template-columns: 1fr $right-sidebar-width;
+    grid-template-rows: auto 1fr auto;
+
+    .upload-view-editor {
+        overflow: hidden; // To hide a strange box at the bottom of the page.
+        width: calc(100vw - $right-sidebar-width); // To resize the editor with the browser.
+    }
+}

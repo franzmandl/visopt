@@ -1,0 +1,7 @@
+class Main {
+public int main() {
+
+  bla = 3;
+  
+}
+}

@@ -1,0 +1,10 @@
+class Main {
+  public int main() {
+    tmp1 = 1;
+    print(tmp1);
+    tmp1 = 2;
+    print(tmp1);
+    print(tmp2);
+    return 0;
+  }
+}

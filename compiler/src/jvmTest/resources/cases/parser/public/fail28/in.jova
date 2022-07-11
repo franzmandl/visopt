@@ -1,0 +1,16 @@
+class Test {
+
+  private int foo;
+  private String bar;
+
+  public int test()
+  {
+    int i, this;
+    String a;
+
+     i = i;
+     a = "this";
+
+    return 0;
+  }
+}

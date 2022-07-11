@@ -1,0 +1,6 @@
+class Test3 {
+public int foo(int hgfd, String bar, bool  b0_az,bool blUb_)
+{
+return 0;
+}
+}

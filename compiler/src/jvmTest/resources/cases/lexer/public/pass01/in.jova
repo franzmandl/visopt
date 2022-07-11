@@ -1,0 +1,6 @@
+int decl;
+String decl2;
+bool decl1;
+int a, b, c, d;
+String asdf, basdf;
+bool basdf,asdf,asdfdas;

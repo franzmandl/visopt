@@ -1,0 +1,14 @@
+class Main {
+  public int main()
+  {
+    int ret;
+    
+    ret = print("Hi, I am boolean: ");
+    ret = print(true);
+    
+    ret = print("\nHi boolean, I am number: ");
+    ret = print(42);
+    
+    return 0;
+  }
+}

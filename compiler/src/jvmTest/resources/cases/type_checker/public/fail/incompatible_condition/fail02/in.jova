@@ -1,0 +1,16 @@
+class Test{
+
+}
+
+class Main {
+
+  public int main() {
+    Test test;
+    test = new Test;
+    if(test){
+      
+    }
+    return 0;
+  }
+
+}

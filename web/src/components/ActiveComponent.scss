@@ -1,0 +1,15 @@
+@import '../scss/variables';
+
+.active-component {
+    &.active-component-blue {
+        background-color: $blue-200;
+    }
+
+    &.active-component-green {
+        background-color: $green-200;
+    }
+
+    &.active-component-red {
+        background-color: $red-200;
+    }
+}

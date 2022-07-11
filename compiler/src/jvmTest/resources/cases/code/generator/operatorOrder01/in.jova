@@ -1,0 +1,51 @@
+class Main {
+    public int main() {
+        int i1;
+        bool b1;
+
+        i1 = -((1 + 2) * (3 + 4));
+
+        i1 = 1 - (2 + 3);
+        i1 = (1 - 2) + 3;
+
+        i1 = 1 / (2 * 3);
+        i1 = (1 / 2) * 3;
+
+        b1 = 1 == (2 == 3);
+        b1 = (1 == 2) == 3;
+
+        i1 = 1 * 2 / 3 * 4;
+        i1 = (1 * 2) / (3 * 4);
+
+        i1 = 1 * 2 - 3 * 4;
+        i1 = (1 * 2) - (3 * 4);
+
+        i1 = 1 + (2 + 3);
+        i1 = (1 + 2) + 3;
+
+        i1 = 1 << 2 * 3;
+        i1 = (1 << 2) * 3;
+
+        i1 = 1 >> 2 * 3;
+        i1 = (1 >> 2) * 3;
+
+        b1 = (true || false) && (true || false);
+        b1 = (true && false) || (true && false);
+        b1 = !((true && false) || (true && false));
+
+        i1 = --1;
+        b1 = -!false;
+        i1 = !-1;
+        b1 = !!false;
+
+        i1 = true ? 1 : 2;
+        i1 = true ? true ? 1 : 2 : 3;
+        i1 = true ? (true ? 1 : 2) : 3;
+        i1 = true ? true ? true : false ? 1 : 2 : 3;
+        i1 = true ? (true ? true : false) ? 1 : 2 : 3;
+        i1 = true ? ((true ? true : false) ? 1 : 2) : 3;
+        i1 = true ? true ? true : (false ? 1 : 2) : 3;
+        i1 = -(true ? 1 : 2);
+        return 0;
+    }
+}

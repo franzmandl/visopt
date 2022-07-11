@@ -1,0 +1,20 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 0
+
+Number of type errors: 0
+
+Number of type warnings: 12
+  #1: line 14:16 Operator '==': Found types: 'int', 'bool'. Coerced to: 'int', 'int'
+  #2: line 15:23 Operator '==': Found types: 'bool', 'int'. Coerced to: 'int', 'int'
+  #3: line 37:14 Operator '-': Found type: 'bool'. Coerced to: 'int'
+  #4: line 37:12 Operator '=': Found types: 'bool', 'int'. Coerced to: 'bool', 'bool'
+  #5: line 38:14 Operator '!': Found type: 'int'. Coerced to: 'bool'
+  #6: line 38:12 Operator '=': Found types: 'int', 'bool'. Coerced to: 'int', 'int'
+  #7: line 44:33 Operator ':': Found types: 'bool', 'int'. Coerced to: 'bool', 'bool'
+  #8: line 44:49 Operator ':': Found types: 'bool', 'int'. Coerced to: 'bool', 'bool'
+  #9: line 44:12 Operator '=': Found types: 'int', 'bool'. Coerced to: 'int', 'int'
+  #10: line 47:33 Operator ':': Found types: 'bool', 'int'. Coerced to: 'bool', 'bool'
+  #11: line 47:51 Operator ':': Found types: 'bool', 'int'. Coerced to: 'bool', 'bool'
+  #12: line 47:12 Operator '=': Found types: 'int', 'bool'. Coerced to: 'int', 'int'

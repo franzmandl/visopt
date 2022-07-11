@@ -1,0 +1,6 @@
+int decl()
+String decl2()
+bool decl1(int a)
+int a(String b, bool c, int d)
+String asdf(String basdf)
+bool basdf(bool asdf, bool asdfdas)

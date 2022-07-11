@@ -1,0 +1,13 @@
+class Test{
+
+}
+
+class Main {
+  private int dontDoThis;
+
+  public int main() {
+    
+    return 0;
+  }
+
+}

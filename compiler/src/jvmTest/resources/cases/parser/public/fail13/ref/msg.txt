@@ -1,0 +1,5 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 1
+  #1: line 10:1 extraneous input 'class' expecting {'}', AMOD, CLASS_TYPE}

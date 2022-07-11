@@ -1,0 +1,28 @@
+class TestClass1 {
+}
+
+class TestClass2 {
+}
+
+class TestClass3 {
+  public int fun(TestClass1 tc1, TestClass2 tc2) {
+    return 1;
+  }
+
+  public int fun(TestClass2 tc2, TestClass1 tc1) {
+    return 1;
+  }
+}
+
+class Main {
+  public int main() {
+    int rv;
+    TestClass3 testClass3;
+
+    testClass3 = new TestClass3;
+
+    rv = testClass3.fun(nix, nix);
+
+    return 0;
+  }
+}

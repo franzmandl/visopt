@@ -1,0 +1,5 @@
+class Main {
+    public int main() {
+        return 1 / 0 + print("test");
+    }
+}

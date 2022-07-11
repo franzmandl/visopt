@@ -1,0 +1,9 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 0
+
+Number of type errors: 0
+
+Number of type warnings: 1
+  #1: line 11:5 Condition: Found type: 'int'. Coerced to: 'bool'

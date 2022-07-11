@@ -1,0 +1,6 @@
+@import '../scss/variables';
+
+.program-view {
+    grid-template-columns: 1fr $right-sidebar-width;
+    grid-template-rows: auto 1fr auto auto;
+}

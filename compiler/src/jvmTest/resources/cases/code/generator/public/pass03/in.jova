@@ -1,0 +1,32 @@
+class Knowledge {
+}
+
+class JonSnow {
+  public Knowledge getKnowledge() {
+    return nix;
+  }
+}
+
+class Main {
+
+  public int main() {
+    int ret;
+    Knowledge what_does_jon_snow_know;
+    JonSnow jonny_boi;
+    
+    jonny_boi = new JonSnow;
+    
+    what_does_jon_snow_know = jonny_boi.getKnowledge();
+    
+    ret = print("So... what does Jon Snow know?\n");
+    
+    if(what_does_jon_snow_know == nix)
+    {
+      ret = print("He knows nix.\n");
+    } else {
+      ret = print("He knows somethin... wait, what?!\n");
+    }
+    return 0;
+  }
+
+}

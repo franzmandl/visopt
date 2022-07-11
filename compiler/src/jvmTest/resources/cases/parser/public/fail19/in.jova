@@ -1,0 +1,10 @@
+class Test5 {
+  public Test5 MYSELF;
+  
+  public bool init(Test5 self)
+  {
+    MYSELF = self;
+    return true;
+  }
+}
+

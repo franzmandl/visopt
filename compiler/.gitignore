@@ -1,0 +1,4 @@
+/.gradle
+/.idea
+/build
+/src/jvmMain/java/com/franzmandl/compiler/generated

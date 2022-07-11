@@ -1,0 +1,27 @@
+class Test {
+
+ private int foo;
+ private String bar;
+
+
+  Test() {
+    foo = 42;
+    bar = "Jon Skeet can divide by zero.";
+  }
+
+  Test(int fooo, String barr) {
+    foo = fooo;
+    bar = barr;
+  }
+
+  public int test()
+  {
+    int i;
+    String a;
+
+    i = foo;
+    a = bar;
+
+    return 0;
+  }
+}

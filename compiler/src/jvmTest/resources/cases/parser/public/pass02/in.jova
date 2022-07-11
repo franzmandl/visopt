@@ -1,0 +1,12 @@
+class Test2 {
+public int test2() {
+
+  a = 1==2;
+  b = 3 <=3;
+  c = str<5;
+  d = 5>123;
+  e = 6>=as;
+  
+  return 0;
+}
+}

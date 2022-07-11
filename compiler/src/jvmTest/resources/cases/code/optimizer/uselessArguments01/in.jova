@@ -1,0 +1,13 @@
+class Test {
+    public int addNumbers(int x, int y) {
+        return 0;
+    }
+}
+
+class Main {
+    public int main() {
+        Test t;
+        t = new Test;
+        return t.addNumbers(1, 2);
+    }
+}

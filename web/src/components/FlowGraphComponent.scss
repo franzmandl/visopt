@@ -1,0 +1,13 @@
+@import '../scss/variables';
+
+.flow-graph-component {
+    .basic-block-component {
+        font-family: $font-family-monospace;
+        border: 2px $cfg-line-color solid;
+        padding: 1rem 0;
+
+        &.basic-block-component-active {
+            border-color: $primary;
+        }
+    }
+}

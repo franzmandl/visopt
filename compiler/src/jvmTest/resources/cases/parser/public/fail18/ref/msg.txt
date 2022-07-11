@@ -1,0 +1,5 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 1
+  #1: line 19:11 extraneous input '.' expecting {'(', 'new', 'nix', 'this', ADDOP, '!', INT_LIT, BOOL_LIT, ID, STRING_LIT}

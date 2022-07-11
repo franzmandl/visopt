@@ -1,0 +1,13 @@
+class Test{
+  private int whyYouDoubleDeclMe;
+  private String whyYouDoubleDeclMe;
+}
+
+class Main {
+
+  public int main() {
+
+    return 0;
+  }
+
+}

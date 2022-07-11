@@ -1,0 +1,14 @@
+class Test{
+  private int dontTouchMe;
+}
+
+class Main {
+
+  public int main() {
+    Test test;
+    test = new Test;
+    test.dontTouchMe = 1;
+    return 0;
+  }
+
+}

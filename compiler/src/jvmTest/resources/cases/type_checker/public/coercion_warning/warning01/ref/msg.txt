@@ -1,0 +1,9 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 0
+
+Number of type errors: 0
+
+Number of type warnings: 1
+  #1: line 10:19 Operator '+': Found types: 'bool', 'int'. Coerced to: 'int', 'int'

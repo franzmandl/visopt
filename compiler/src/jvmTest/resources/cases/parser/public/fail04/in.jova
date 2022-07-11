@@ -1,0 +1,8 @@
+class Test7
+{
+public int gcd(int a, int b){
+  int result;
+  int a;c,b;
+  return result;
+}
+}

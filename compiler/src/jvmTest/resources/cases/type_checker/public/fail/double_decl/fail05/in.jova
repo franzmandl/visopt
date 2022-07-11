@@ -1,0 +1,6 @@
+class Nested {
+
+  public int fortyTwo(int x, String x) {
+    return 42;
+  }
+}

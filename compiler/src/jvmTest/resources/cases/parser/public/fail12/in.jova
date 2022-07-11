@@ -1,0 +1,10 @@
+class Test8
+{
+  int a,b,c,d,e;
+  
+  public int getA()
+  {
+    return a;
+  }
+
+}

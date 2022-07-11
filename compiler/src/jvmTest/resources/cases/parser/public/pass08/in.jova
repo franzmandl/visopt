@@ -1,0 +1,35 @@
+class MyCls {
+
+  public int main()
+  {
+    int i,a,b;
+    
+     if(42)
+      {
+        while(true==b)
+        {
+          if(b)
+          {
+            while(false)
+              {
+                a= b;
+              }
+              a= b;
+          }
+          a= b;
+        }
+        a= b;
+      }
+      else
+      {
+        a= b;
+        while(42)
+        {
+          a= b;
+        }
+        a= b;
+      }
+    a= b;
+    return 0;
+  }
+}

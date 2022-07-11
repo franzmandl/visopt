@@ -1,0 +1,7 @@
+class MyCLS {
+
+  public int main(bool A, String B, int C)
+  {
+    return 0;
+  }
+}

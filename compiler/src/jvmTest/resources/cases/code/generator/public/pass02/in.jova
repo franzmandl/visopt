@@ -1,0 +1,20 @@
+class Main {
+  public int main() {
+    int ret;
+    bool wumbo;
+    
+    ret = print("Set it to W for WUMBO!\n");
+    wumbo = true;
+    
+    if(wumbo)
+    {
+      ret = print("MAGNIFY!\n");
+    } else
+    {
+      ret = print("EEEVIL!\n");
+    }
+  
+    return 0;
+  }
+
+}

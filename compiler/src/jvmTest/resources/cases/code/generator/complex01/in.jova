@@ -1,0 +1,87 @@
+class FirstClass {
+    private int fieldPrivateInt;
+    public int fieldPublicInt;
+    public bool fieldPublicBool;
+    public String fieldPublicString;
+
+    public int methodPublicInt(bool paramBool, FirstClass paramFirstClass) {
+        return 0;
+    }
+
+    public bool methodPublicBool(bool paramBool, FirstClass paramFirstClass) {
+        return true;
+    }
+
+    public int conditionals() {
+        int rv;
+        int variable1;
+        if(rv <= variable1) {
+            rv = print("then");
+        } else {
+            rv = print("else");
+        }
+        if(true) {
+            rv = print("then");
+        }
+        while(false) {
+            rv = print("while");
+        }
+        return rv;
+    }
+
+    public int conditionals2() {
+        int rv;
+        String string1;
+        if(true) {
+            rv = print("then");
+        } else {
+            rv = print("else");
+        }
+        while(false) {
+            rv = print("while");
+        }
+        string1 = readString();
+        return rv;
+    }
+}
+
+class SecondClass {
+    private FirstClass fieldPrivateFirstClass;
+    public FirstClass fieldPublicFirstClass;
+
+    SecondClass() {
+        fieldPrivateFirstClass = new FirstClass;
+    }
+
+    private SecondClass methodPrivateSecondClass(FirstClass paramFirstClass, bool paramBool) {
+        SecondClass rv;
+        rv = new SecondClass;
+        return rv;
+    }
+
+    public int conditionals() {
+        int rv;
+        if(true) {
+            rv = print("true");
+        } else {
+            rv = print("true");
+        }
+        while(false) {
+            rv = print("false");
+        }
+        rv = readInt();
+        return rv;
+    }
+}
+
+class Main {
+    public int main() {
+        SecondClass variable1, variable2;
+        int variable3;
+        variable1 = new SecondClass;
+        variable2 = new SecondClass();
+        variable1.fieldPublicFirstClass.fieldPublicInt = 1;
+        variable3 = variable1.fieldPublicFirstClass.methodPublicInt(true, variable1.fieldPublicFirstClass);
+        return 0;
+    }
+}

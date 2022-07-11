@@ -1,0 +1,16 @@
+class Tmp {
+}
+class Cls {
+
+  public int func(int x) {
+    bool b;
+    bool c;
+    bool d;
+    d = b || c;
+    return 0;
+  }
+
+
+}
+
+

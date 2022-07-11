@@ -1,0 +1,12 @@
+class Main {
+    public int main() {
+        int x, y, res, val;
+        x = 0;
+        y = 0;
+        res = 0;
+        val = 0;
+        res = x + y;
+        val = res;
+        return val;
+    }
+}

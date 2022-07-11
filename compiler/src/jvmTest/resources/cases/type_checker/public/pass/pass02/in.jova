@@ -1,0 +1,15 @@
+class Nested {
+
+  public int fortyTwo() {
+    return 42;
+  }
+
+  public int nestedIsland() {
+  
+    int foo;
+    
+    foo = 4 + 8 * 15 * (16 - 23) / fortyTwo();
+    
+    return 0;
+  }
+}

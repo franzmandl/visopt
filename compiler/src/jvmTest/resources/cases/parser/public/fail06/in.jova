@@ -1,0 +1,10 @@
+class Main {
+public int main() {
+
+  bla = 3
+
+  c123 = 0;
+  
+  return 0;
+}
+}

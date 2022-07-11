@@ -1,0 +1,12 @@
+class Test{
+
+}
+
+class Main {
+
+  public int main() {
+    Main m;
+    return 0;
+  }
+
+}

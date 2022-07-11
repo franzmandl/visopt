@@ -1,0 +1,13 @@
+class Test {
+
+private int foo;
+private bool bar;
+public String merp, gerd, brrr;
+private bool b;
+
+  public int test() 
+  {
+
+    return 0;
+  }
+}

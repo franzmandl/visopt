@@ -1,0 +1,15 @@
+class Test
+{
+  
+  public int getA()
+  {
+    return a;
+  }
+
+
+class Main {
+public int main()
+{
+    return 0;
+}
+}

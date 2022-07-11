@@ -1,0 +1,6 @@
+class Main {
+public int main() {
+  id = 0198;
+  return id;
+}
+}

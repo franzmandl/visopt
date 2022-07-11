@@ -1,0 +1,11 @@
+class Test {
+
+  public int test() 
+  {
+    int c;
+    Test m;
+    new Test = new Test;
+    
+    return 0;
+  }
+}

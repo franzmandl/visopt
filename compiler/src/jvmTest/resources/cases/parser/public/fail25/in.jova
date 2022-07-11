@@ -1,0 +1,12 @@
+class Test {
+  public int test()
+  {
+     bool foo;
+     int a;
+
+     foo = false;
+     a = foo ? 41  42;
+
+    return 0;
+  }
+}

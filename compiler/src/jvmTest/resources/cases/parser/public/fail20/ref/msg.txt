@@ -1,0 +1,6 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 2
+  #1: line 2:9 mismatched input 'a' expecting '('
+  #2: line 4:1 extraneous input '<EOF>' expecting {'}', AMOD, CLASS_TYPE}

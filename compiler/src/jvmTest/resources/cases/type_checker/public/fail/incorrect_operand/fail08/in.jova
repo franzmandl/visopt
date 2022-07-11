@@ -1,0 +1,16 @@
+class Test{
+
+}
+
+class Main {
+
+  public int main() {
+    int result;
+    bool b;
+    Test test;
+    result = 1;
+    b = result < test;
+    return 0;
+  }
+
+}

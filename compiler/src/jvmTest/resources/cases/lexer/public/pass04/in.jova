@@ -1,0 +1,16 @@
+int gcd(int a, int b){
+  int result;
+
+  if(b == 0){
+    result = a;
+  } else {
+    result = gcd(b, a % b);
+  }
+  return result;
+}
+
+int main(){
+
+  int a, x,y;
+  return printf("%d", gcd(x, y));
+}

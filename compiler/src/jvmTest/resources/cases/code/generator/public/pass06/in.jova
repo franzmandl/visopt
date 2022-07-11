@@ -1,0 +1,67 @@
+class Tower {
+  private int modifier;
+  
+  public int resetNumber(){
+    modifier = 2;
+    return 0;
+  }
+  
+  public int getNumber(){
+    return modifier;
+  }
+  
+  public int multiply(int a){
+    int newNumber;
+    newNumber = a * modifier;
+    modifier = (modifier + 1);
+    
+    return newNumber;
+  }
+  
+  public int divide(int a){
+    int newNumber;
+    newNumber = a / modifier;
+    modifier = (modifier + 1);
+    
+    return newNumber;
+  }
+}
+
+class Printer{
+  public int printf(int number){
+    int ret;
+    ret = print(number);
+    ret = print("\n");
+    return 0;
+  }
+}
+
+class Main {
+
+  public int main() {
+  
+    Tower tower;
+    Printer printer;
+    int number, ret;
+    tower = new Tower;
+	printer = new Printer;
+    number = 42;
+    
+    ret = printer.printf(number);
+    ret = tower.resetNumber();
+    
+    while(tower.getNumber() < 10){
+      number = tower.multiply(number);
+      ret = printer.printf(number);
+    }
+    
+    ret = tower.resetNumber();
+    
+    while(tower.getNumber() < 10){
+      number = tower.divide(number);
+      ret = printer.printf(number);
+    }
+      
+    return 0;
+  }
+}

@@ -1,0 +1,9 @@
+@import '../../scss/variables';
+
+.body-component {
+    font-family: $font-family-monospace;
+
+    .body-component-indent {
+        padding-left: 1rem;
+    }
+}

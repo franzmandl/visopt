@@ -1,0 +1,7 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 0
+
+Number of type errors: 1
+  #1: Usage of undefined identifier 'var' (line 8)

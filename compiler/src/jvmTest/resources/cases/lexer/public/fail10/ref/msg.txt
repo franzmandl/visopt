@@ -1,0 +1,3 @@
+
+Number of lexical errors: 1
+  #1: line 2:14 token recognition error at: '#'
