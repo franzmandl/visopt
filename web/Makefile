@@ -1,13 +1,13 @@
-all: lint test build
+all:: lint test build
 
-build:
+build::
 	npm run build
 
-lint:
+lint::
 	npm run lint
 
-start:
+start::
 	BROWSER=none npm run start
 
-test:
+test::
 	CI=true npm run test

@@ -9,7 +9,7 @@ import com.franzmandl.compiler.ctx.*
 import com.franzmandl.compiler.optimizer.Optimization
 import com.franzmandl.compiler.optimizer.UnreachableCodeElimination
 import com.franzmandl.compiler.suite.Util.all01addresses
-import com.franzmandl.compiler.suite.Util.all01algebraicSimplificationsAddress
+import com.franzmandl.compiler.suite.Util.all01algebraicSimplificationAddress
 import com.franzmandl.compiler.suite.Util.all01allOptimizationsAddress
 import com.franzmandl.compiler.suite.Util.all01commonSubexpressionEliminationAddress
 import com.franzmandl.compiler.suite.Util.all01constantFoldingAddress
@@ -69,8 +69,8 @@ return result;
 	}
 
 	@Test
-	fun testAlgebraicSimplifications1() {
-		Assertions.assertThat(optimize(all01algebraicSimplificationsAddress)).isEqualToNormalizingWhitespace(
+	fun testAlgebraicSimplification1() {
+		Assertions.assertThat(optimize(all01algebraicSimplificationAddress)).isEqualToNormalizingWhitespace(
 			"""
 int x;
 x = 183;
@@ -85,10 +85,10 @@ return x;
 
 
 	@Test
-	fun testAlgebraicSimplifications2() {
+	fun testAlgebraicSimplification2() {
 		Assertions.assertThat(
 			optimize(
-				setOf(Optimization.AlgebraicSimplifications), """
+				setOf(Optimization.AlgebraicSimplification), """
 bool boolean, cond;
 int lhs, rhs, result;
 cond = true;

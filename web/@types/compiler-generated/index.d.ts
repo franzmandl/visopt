@@ -119,7 +119,7 @@ declare module 'compiler-generated' {
 
     export type ObjectEqualsBinaryOperator = '==' | '!=';
 
-    export type Optimization = 'AlgebraicSimplifications' | 'CommonSubexpressionElimination' | 'ConstantFolding' | 'ConstantPropagation' | 'CopyPropagation' | 'DeadCodeElimination' | 'ReductionInStrength' | 'ThreeAddressCode';
+    export type Optimization = 'AlgebraicSimplification' | 'CommonSubexpressionElimination' | 'ConstantFolding' | 'ConstantPropagation' | 'CopyPropagation' | 'DeadCodeElimination' | 'ReductionInStrength' | 'ThreeAddressCode';
 
     export type Phase = 'Lexer' | 'Parser' | 'TypeChecker';
 

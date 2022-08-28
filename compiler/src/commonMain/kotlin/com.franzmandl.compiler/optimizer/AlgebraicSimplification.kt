@@ -6,11 +6,11 @@ import com.franzmandl.compiler.ctx.ExpressionContext
 import com.franzmandl.compiler.ctx.ExpressionReplaceVisitor
 import com.franzmandl.compiler.ctx.RuleReplaceExpressionReason as RuleReason
 
-object AlgebraicSimplifications : ExpressionReplaceVisitor.Factory, ExpressionReplaceVisitor.Replacer {
+object AlgebraicSimplification : ExpressionReplaceVisitor.Factory, ExpressionReplaceVisitor.Replacer {
 	private fun replace(ctx: ExpressionContext<Expression>, old: Expression, replacement: Expression, rule: RuleReason) =
-		ctx.replaceExpression(Optimization.AlgebraicSimplifications, old, replacement, rule, null)
+		ctx.replaceExpression(Optimization.AlgebraicSimplification, old, replacement, rule, null)
 
-	override fun createExpressionReplaceVisitor(addCommand: AddCommand) = ExpressionReplaceVisitor(addCommand, AlgebraicSimplifications)
+	override fun createExpressionReplaceVisitor(addCommand: AddCommand) = ExpressionReplaceVisitor(addCommand, AlgebraicSimplification)
 
 	override fun replaceArithmeticUnaryOperation(operand: Expression, ctx: ExpressionContext<ArithmeticUnaryOperation>, alt: ArithmeticUnaryOperation) =
 		when (ctx.original.operator) {

@@ -11,7 +11,7 @@ class Example {
         return result;
     }
 
-    public int algebraicSimplifications() {
+    public int algebraicSimplification() {
         int x;
         x = 183;
         x = x + 0;
@@ -105,7 +105,7 @@ class Main {
         instance = new Example;
         print(instance.allOptimizations());
         print("\n");
-        print(instance.algebraicSimplifications());
+        print(instance.algebraicSimplification());
         print("\n");
         print(instance.commonSubexpressionElimination());
         print("\n");

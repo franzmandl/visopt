@@ -27,7 +27,7 @@ object Util {
 	const val all01fileName = "${Constant.testCasesDirectory}/code/generator/all01/in.jova"
 	private const val all01classId = "Example"
 	val all01allOptimizationsAddress = BodyAddress(all01classId, Signature("allOptimizations", listOf()))
-	val all01algebraicSimplificationsAddress = BodyAddress(all01classId, Signature("algebraicSimplifications", listOf()))
+	val all01algebraicSimplificationAddress = BodyAddress(all01classId, Signature("algebraicSimplification", listOf()))
 	val all01commonSubexpressionEliminationAddress = BodyAddress(all01classId, Signature("commonSubexpressionElimination", listOf()))
 	val all01constantFoldingAddress = BodyAddress(all01classId, Signature("constantFolding", listOf()))
 	val all01constantPropagationAddress = BodyAddress(all01classId, Signature("constantPropagation", listOf()))
@@ -37,7 +37,7 @@ object Util {
 	val all01unreachableCodeEliminationAddress = BodyAddress(all01classId, Signature("unreachableCodeElimination", listOf()))
 	val all01addresses = mapOf(
 		all01allOptimizationsAddress to Optimization.values().filter { it !== Optimization.ThreeAddressCode }.toSet(),
-		all01algebraicSimplificationsAddress to setOf(Optimization.AlgebraicSimplifications),
+		all01algebraicSimplificationAddress to setOf(Optimization.AlgebraicSimplification),
 		all01commonSubexpressionEliminationAddress to setOf(Optimization.CommonSubexpressionElimination),
 		all01constantFoldingAddress to setOf(Optimization.ConstantFolding),
 		all01constantPropagationAddress to setOf(Optimization.ConstantPropagation),

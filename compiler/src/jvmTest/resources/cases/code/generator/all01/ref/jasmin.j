@@ -49,31 +49,31 @@
   ireturn  ; P/B:Example.allOptimizations()/C:/CS:0/BB/BS:5
 .end method  ; P
 
-.method public algebraicSimplifications()I  ; P
+.method public algebraicSimplification()I  ; P
 .limit stack 2  ; P
 .limit locals 2  ; P
-  ldc 0  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:0
-  istore 1  ; x  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:0
-  ldc 183  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:1/E:1/
-  istore 1  ; x  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:1
-  iload 1  ; x  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:2/E:1/0
-  ldc 0  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:2/E:1/1
-  iadd  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:2/E:1/
-  istore 1  ; x  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:2
-  iload 1  ; x  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:3/E:1/0
-  ldc 0  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:3/E:1/1
-  isub  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:3/E:1/
-  istore 1  ; x  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:3
-  iload 1  ; x  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:4/E:1/0
-  ldc 1  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:4/E:1/1
-  imul  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:4/E:1/
-  istore 1  ; x  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:4
-  iload 1  ; x  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:5/E:1/0
-  ldc 1  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:5/E:1/1
-  idiv  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:5/E:1/
-  istore 1  ; x  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:5
-  iload 1  ; x  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:6/E:0/
-  ireturn  ; P/B:Example.algebraicSimplifications()/C:/CS:0/BB/BS:6
+  ldc 0  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:0
+  istore 1  ; x  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:0
+  ldc 183  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:1/E:1/
+  istore 1  ; x  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:1
+  iload 1  ; x  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:2/E:1/0
+  ldc 0  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:2/E:1/1
+  iadd  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:2/E:1/
+  istore 1  ; x  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:2
+  iload 1  ; x  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:3/E:1/0
+  ldc 0  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:3/E:1/1
+  isub  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:3/E:1/
+  istore 1  ; x  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:3
+  iload 1  ; x  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:4/E:1/0
+  ldc 1  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:4/E:1/1
+  imul  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:4/E:1/
+  istore 1  ; x  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:4
+  iload 1  ; x  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:5/E:1/0
+  ldc 1  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:5/E:1/1
+  idiv  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:5/E:1/
+  istore 1  ; x  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:5
+  iload 1  ; x  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:6/E:0/
+  ireturn  ; P/B:Example.algebraicSimplification()/C:/CS:0/BB/BS:6
 .end method  ; P
 
 .method public commonSubexpressionElimination()I  ; P
@@ -327,7 +327,7 @@ L8:  ; P/B:Example.flowGraph()/C:/CS:3/BB
   invokevirtual java/io/PrintStream/print(Ljava/lang/String;)V  ; P/B:Main.main()/C:/CS:0/BB/BS:3/E:0/
   getstatic java/lang/System/out Ljava/io/PrintStream;  ; P/B:Main.main()/C:/CS:0/BB/BS:4/E:0/
   aload 1  ; instance  ; P/B:Main.main()/C:/CS:0/BB/BS:4/E:0/0,0
-  invokevirtual Example/algebraicSimplifications()I  ; P/B:Main.main()/C:/CS:0/BB/BS:4/E:0/0
+  invokevirtual Example/algebraicSimplification()I  ; P/B:Main.main()/C:/CS:0/BB/BS:4/E:0/0
   invokevirtual java/io/PrintStream/print(I)V  ; P/B:Main.main()/C:/CS:0/BB/BS:4/E:0/
   getstatic java/lang/System/out Ljava/io/PrintStream;  ; P/B:Main.main()/C:/CS:0/BB/BS:5/E:0/
   ldc "\n"  ; P/B:Main.main()/C:/CS:0/BB/BS:5/E:0/0

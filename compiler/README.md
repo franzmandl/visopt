@@ -40,3 +40,7 @@ spring_profiles_active=production /opt/visopt/compiler/bin/compiler
 ```
 
 Listens on port [34552](http://localhost:34552/).
+
+## Call Graph of Compiler Phases
+
+![Call graph of compiler phases](assets/phases_call_graph.png)

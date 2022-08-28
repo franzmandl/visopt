@@ -6,7 +6,7 @@ Try it out [here](http://ccvisual.ist.tugraz.at/).
 
 Currently supported optimizations are:
 
-- Algebraic Simplifications
+- Algebraic Simplification
 - Common Subexpression Elimination
 - Constant Folding
 - Constant Propagation

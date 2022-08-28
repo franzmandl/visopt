@@ -38,7 +38,7 @@ object Optimizer {
 	private fun optimize(program: Program, addCommand: AddCommand, sortedOptimizations: List<Optimization>, address: Address, liveOnExit: Set<Variable>): Program {
 		val transformers = sortedOptimizations.map { optimization ->
 			when (optimization) {
-				Optimization.AlgebraicSimplifications -> AnyBlockTransformerExpressionReplaceVisitorProxy(AlgebraicSimplifications.createExpressionReplaceVisitor(addCommand))
+				Optimization.AlgebraicSimplification -> AnyBlockTransformerExpressionReplaceVisitorProxy(AlgebraicSimplification.createExpressionReplaceVisitor(addCommand))
 				Optimization.CommonSubexpressionElimination -> CommonSubexpressionElimination.createAnyBlockTransformer(addCommand, liveOnExit)
 				Optimization.ConstantFolding -> AnyBlockTransformerExpressionReplaceVisitorProxy(ConstantFolding.createExpressionReplaceVisitor(addCommand))
 				Optimization.ConstantPropagation -> AnyPropagation.ConstantPropagation.createAnyBlockTransformer(addCommand, liveOnExit)

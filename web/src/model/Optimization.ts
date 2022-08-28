@@ -2,7 +2,7 @@ import {Optimization as EngineOptimization} from 'compiler-generated';
 
 // Add new Optimizations here.
 export enum Optimization {
-    AlgebraicSimplifications = 'AlgebraicSimplifications',
+    AlgebraicSimplification = 'AlgebraicSimplification',
     CommonSubexpressionElimination = 'CommonSubexpressionElimination',
     ConstantFolding = 'ConstantFolding',
     ConstantPropagation = 'ConstantPropagation',
@@ -27,7 +27,7 @@ export interface OptimizationAttribute {
 
 // Add new Optimizations here.
 export const optimizationAttributes: ReadonlyMap<Optimization, OptimizationAttribute> = new Map([
-    [Optimization.AlgebraicSimplifications, {label: 'Algebraic Simplifications'}],
+    [Optimization.AlgebraicSimplification, {label: 'Algebraic Simplification'}],
     [Optimization.CommonSubexpressionElimination, {label: 'Common Subexpression Elimination'}],
     [Optimization.ConstantFolding, {label: 'Constant Folding'}],
     [Optimization.ConstantPropagation, {label: 'Constant Propagation', mappingLabel: 'Value'}],
